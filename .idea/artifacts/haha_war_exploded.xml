@@ -2,10 +2,17 @@
   <artifact type="exploded-war" name="haha:war exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/haha_war_exploded</output-path>
     <root id="root">
+<<<<<<< HEAD
       <element id="javaee-facet-resources" facet="Java/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="Java" />
+=======
+      <element id="javaee-facet-resources" facet="haha/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="haha" />
+>>>>>>> 022d6827c2106c43056782d2d6ddb4cbfa0ce2a1
         </element>
       </element>
     </root>
