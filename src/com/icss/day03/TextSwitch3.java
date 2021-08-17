@@ -10,6 +10,7 @@ public class TextSwitch3 {
         int m = sc.nextInt();
         int d = sc.nextInt();
         int sum = 0;
+<<<<<<< HEAD
 
         if (y % 400 == 0 || y % 4 == 0 && y % 100 != 0) {
 
@@ -121,6 +122,120 @@ public class TextSwitch3 {
                 }
             }
 
+=======
+<<<<<<< HEAD
+        if (y % 400 == 0 || y % 4 == 0 && y % 100 != 0) {
+=======
+        if (y % 4 == 0 && y % 100 != 0) {
+>>>>>>> 022d6827c2106c43056782d2d6ddb4cbfa0ce2a1
+            switch (m) {
+                case 1:
+                    sum = d;
+                    System.out.println("该年为闰年，且过了有" + sum + "天！");
+                    break;
+                case 2:
+                    sum = 31 + d;
+                    System.out.println("该年为闰年，且过了有" + sum + "天！");
+                    break;
+                case 3:
+                    sum = 31 + 29 + d;
+                    System.out.println("该年为闰年，且过了有" + sum + "天！");
+                    break;
+                case 4:
+                    sum = 31 + 29 + 31 + d;
+                    System.out.println("该年为闰年，且过了有" + sum + "天！");
+                    break;
+                case 5:
+                    sum = 31 + 29 + 31 + 30 + d;
+                    System.out.println("该年为闰年，且过了有" + sum + "天！");
+                    break;
+                case 6:
+                    sum = 31 + 29 + 31 + 30 + 31 + d;
+                    System.out.println("该年为闰年，且过了有" + sum + "天！");
+                    break;
+                case 7:
+                    sum = 31 + 29 + 31 + 30 + 31 + 30 + d;
+                    System.out.println("该年为闰年，且过了有" + sum + "天！");
+                    break;
+                case 8:
+                    sum = 31 + 29 + 31 + 30 + 31 + 30 + 31 + d;
+                    System.out.println("该年为闰年，且过了有" + sum + "天！");
+                    break;
+                case 9:
+                    sum = 31 + 29 + 31 + 30 + 31 + 30 + 31 + 31 + d;
+                    System.out.println("该年为闰年，且过了有" + sum + "天！");
+                    break;
+                case 10:
+                    sum = 31 + 29 + 31 + 30 + 31 + 30 + 31 + 31 + 30 + d;
+                    System.out.println("该年为闰年，且过了有" + sum + "天！");
+                    break;
+                case 11:
+                    sum = 31 + 29 + 31 + 30 + 31 + 30 + 31 + 31 + 30 + 31 + d;
+                    System.out.println("该年为闰年，且过了有" + sum + "天！");
+                    break;
+                case 12:
+                    sum = 31 + 29 + 31 + 30 + 31 + 30 + 31 + 31 + 30 + 31 + 30 + d;
+                    System.out.println("该年为闰年，且过了有" + sum + "天！");
+                    break;
+                default:
+                    System.out.println("输入错误！");
+            }
+        } else {
+            switch (m) {
+                case 1:
+                    sum = d;
+                    System.out.println("该年为平年，且过了有" + sum + "天！");
+                    break;
+                case 2:
+                    sum = 31 + d;
+                    System.out.println("该年为平年，且过了有" + sum + "天！");
+                    break;
+                case 3:
+                    sum = 31 + 28 + d;
+                    System.out.println("该年为平年，且过了有" + sum + "天！");
+                    break;
+                case 4:
+                    sum = 31 + 28 + 31 + d;
+                    System.out.println("该年为平年，且过了有" + sum + "天！");
+                    break;
+                case 5:
+                    sum = 31 + 28 + 31 + 30 + d;
+                    System.out.println("该年为平年，且过了有" + sum + "天！");
+                    break;
+                case 6:
+                    sum = 31 + 28 + 31 + 30 + 31 + d;
+                    System.out.println("该年为平年，且过了有" + sum + "天！");
+                    break;
+                case 7:
+                    sum = 31 + 28 + 31 + 30 + 31 + 30 + d;
+                    System.out.println("该年为平年，且过了有" + sum + "天！");
+                    break;
+                case 8:
+                    sum = 31 + 28 + 31 + 30 + 31 + 30 + 31 + d;
+                    System.out.println("该年为平年，且过了有" + sum + "天！");
+                    break;
+                case 9:
+                    sum = 31 + 28 + 31 + 30 + 31 + 30 + 31 + 31 + d;
+                    System.out.println("该年为平年，且过了有" + sum + "天！");
+                    break;
+                case 10:
+                    sum = 31 + 28 + 31 + 30 + 31 + 30 + 31 + 31 + 30 + d;
+                    System.out.println("该年为平年，且过了有" + sum + "天！");
+                    break;
+                case 11:
+                    sum = 31 + 28 + 31 + 30 + 31 + 30 + 31 + 31 + 30 + 31 + d;
+                    System.out.println("该年为平年，且过了有" + sum + "天！");
+                    break;
+                case 12:
+                    sum = 31 + 28 + 31 + 30 + 31 + 30 + 31 + 31 + 30 + 31 + 30 + d;
+                    System.out.println("该年为平年，且过了有" + sum + "天！");
+                    break;
+                default:
+                    System.out.println("输入错误！");
+            }
+        }
+<<<<<<< HEAD
+>>>>>>> 1f513bd072b1ba779073d0d1f791a1e7744d69c3
        /* int temp = 0;
 
         switch (m) {
@@ -162,6 +277,11 @@ public class TextSwitch3 {
         } else {
             System.out.println("该年为平年，且过了有" + sum + "天！");
         }*/
+<<<<<<< HEAD
         }
+=======
+=======
+>>>>>>> 022d6827c2106c43056782d2d6ddb4cbfa0ce2a1
+>>>>>>> 1f513bd072b1ba779073d0d1f791a1e7744d69c3
     }
 }
